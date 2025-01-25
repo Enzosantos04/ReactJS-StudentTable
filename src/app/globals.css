@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -18,4 +18,93 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+} */
+/* styles/globals.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  display: flex;
+  justify-content: center;
+  margin-top: 6vh;
+
+}
+
+table {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  background-color: #f9f9f9;
+
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e8f5e9;
+
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+
+}
+
+
+
+td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+
+
+}
+
+td img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+
+.inactive {
+  background-color: #FF3333;
+  padding: 0.5rem;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.active {
+  background-color: #4caf50;
+  padding: 0.5rem;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+thead {
+  margin: 5px;
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+
+
+}
+
+thead th {
+  color: #ffffff;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+
 }
